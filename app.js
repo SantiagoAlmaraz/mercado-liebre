@@ -16,4 +16,9 @@ app.get("/register.html", (req, res) => {
 app.get("/login.html", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/login.html"))
 });
-app.listen("3000", () => {console.log("Servidor Funcando...")});
+
+// app.listen("3000", () => {console.log("Servidor Funcando...")});
+
+const port = process.env.PORT || 3001;
+
+app.listen(port, ()=> console.log(`Servidor corriendo en el puerto ${port}`));
