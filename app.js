@@ -19,6 +19,6 @@ app.get("/login.html", (req, res) => {
 
 // app.listen("3000", () => {console.log("Servidor Funcando...")});
 
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
-app.listen(port, ()=> console.log(`Servidor corriendo en el puerto ${port}`));
+app.listen(PORT, ()=> console.log(`Servidor corriendo en el puerto ${PORT}`));
