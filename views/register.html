@@ -70,7 +70,7 @@
 
     <main>
         <form action="/">
-            <input type="text" placeholder="Nombre y apellido" class="item-form" name="nombre-apellido" id="nombre-apellido" required>
+            <input type="text" placeholder="Nombre y apellido" class="item-form" name="nombre-apellido" id="nombre-apellido" minlength="5" required>
 
             <input type="text" placeholder="Nombre de usuario" class="item-form" name="usuario" id="usuario" required>
 
@@ -86,8 +86,8 @@
             <div class="item-form">
                 <label for="perfil">Perfil del usuario</label>
                 <div class="perfil-usuario">
-                    <input type="radio" name="perfil" id="perfil"><span>Comprador</span>
-                    <input type="radio" name="perfil" id="perfil"><span>Vendedor</span>
+                    <input type="radio" name="perfil" id="perfil" value="comprador"><span>Comprador</span>
+                    <input type="radio" name="perfil" id="perfil" value="comprador"><span>Vendedor</span>
                 </div>
             </div>
 
@@ -95,19 +95,19 @@
                 <label for="inter">Intereses</label>
                 <div class="intereses-container">
                     <div>
-                        <input type="checkbox" name="inter" id="inter"><span>Electro</span>
+                        <input type="checkbox" name="inter" id="inter" value="electro"><span>Electro</span>
                     </div>
                    <div>
-                     <input type="checkbox" name="inter" id="inter"><span>Moda</span>
+                     <input type="checkbox" name="inter" id="inter" value="moda"><span>Moda</span>
                    </div>
                     <div>
-                        <input type="checkbox" name="inter" id="inter"><span>Hogar</span>
+                        <input type="checkbox" name="inter" id="inter" value="hogar"><span>Hogar</span>
                     </div>
                     <div>
-                        <input type="checkbox" name="inter" id="inter"><span>Juguetería</span>
+                        <input type="checkbox" name="inter" id="inter" value="juguetes"><span>Juguetería</span>
                     </div>
                     <div>
-                        <input type="checkbox" name="inter" id="inter"><span>Vida Sana</span>
+                        <input type="checkbox" name="inter" id="inter" value="vida-sana"><span>Vida Sana</span>
                     </div>
                 </div>
             </div>

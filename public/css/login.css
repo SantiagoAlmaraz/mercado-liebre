@@ -7,6 +7,7 @@
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 /**----------------------------------------HEADER-----------------------------------------*/
@@ -94,7 +95,6 @@ main {
 main form {
     display: flex;
     flex-direction: column;
-    margin: 50px;
     justify-content: center;
     height: 100%;
 }
@@ -218,6 +218,24 @@ p {
     }
 
     /**-------------------------------------FOOTER-------------------------------------*/
+    main {
+        height: 60%;
+    }
+
+    main form {
+        padding: 50px 200px;
+    }
+
+    main form input,
+    button {
+        height: 70px;
+    }
+
+    #usuario {
+        margin: 30px 0;
+    }
+
+    /**-------------------------------------FOOTER-------------------------------------*/
 
     footer section {
         display: flex;
@@ -276,5 +294,14 @@ p {
 
 
     /**-------------------------------------MAIN-------------------------------------*/
+
+    main form {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
 
 }
