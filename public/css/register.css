@@ -24,6 +24,7 @@ main form input {
     border: none;
     border-radius: 2px;
     padding: 5px 0;
+    text-indent: 10px;
 }
 
 main form input::placeholder {

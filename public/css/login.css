@@ -27,6 +27,8 @@ main form input {
     border: none;
     border-radius: 2px;
     padding: 40px 0;
+    text-indent: 10px;
+    font-size: 20px;
 }
 
 main form input::placeholder {
